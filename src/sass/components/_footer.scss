@@ -1,0 +1,21 @@
+.footer {
+  background-color: black;
+}
+
+.footer__container {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.footer__wrapper {
+  display: flex;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}

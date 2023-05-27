@@ -1,0 +1,84 @@
+.header {
+  position: relative;
+  padding: 10px;
+
+  background-color: black;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__wrapper {
+  display: flex;
+}
+
+///////////////////////////////////////////////            LOGO ELEMENT
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+// // icon
+
+.header__logo-icon {
+  fill: white;
+}
+
+// // letters
+.header__logo-letters {
+  position: absolute;
+
+  opacity: 0;
+  color: white;
+}
+
+///////////////////////////////////////////////         NAVIGATION ELEMENT
+
+.header__nav {
+  left: 100px;
+  margin-left: 20%;
+}
+
+.header__nav-list {
+  padding-left: 0;
+  display: flex;
+}
+
+.header__nav-item {
+  position: relative;
+  &:last-child {
+    margin-left: 10px;
+  }
+}
+
+.header__nav-button {
+  margin: 0;
+  padding: 0;
+  border: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.16;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fff;
+  background-color: inherit;
+}
+
+///////////////////////////////////////////////         SELECT GENRE
+.header__select {
+  display: flex;
+  align-items: center;
+}
+
+// Links
+.header__nav-item a {
+  text-decoration: none;
+  color: white;
+}
